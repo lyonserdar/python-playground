@@ -1,9 +1,13 @@
+"""
+interest_calculator.py
+"""
 import datetime
 
 rate = 0.04
 pv = 1000
 daily_rate = rate / 365.0
 
+# Basic usage of datetime
 d1 = datetime.date(2021, 7, 1)
 d2 = datetime.date(2021, 12, 31)
 num_of_days = (d2 - d1).days
